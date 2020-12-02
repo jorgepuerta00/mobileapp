@@ -1,0 +1,132 @@
+{
+  "expo": {
+    "name": "pidenos",
+    "slug": "pidenos",
+    "privacy": "public",
+    "facebookAppId": "*************************",
+    "facebookScheme": "*************************",
+    "facebookDisplayName": "Pidenos",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.1.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon-pidenos.png",
+    "splash": {
+      "image": "./assets/splash-pidenos.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "*************************-*************************.apps.googleusercontent.com"
+        }
+      },
+      "bundleIdentifier": "com.*************************.*************************",
+      "buildNumber": "1.1.9",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location"
+        ],
+        "NSLocationWhenInUseUsageDescription": "We are asking for your location",
+        "LSApplicationQueriesSchemes": [
+          "fbapi",
+          "fb-messenger-share-api",
+          "fbauth2",
+          "fbshareextension"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.*************************.*************************",
+      "versionCode": 11,
+      "config": {
+        "googleSignIn": {
+          "apiKey": "*************************-*************************.apps.googleusercontent.com",
+          "certificateHash": "*************************"
+        }
+      }
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "*************************-*************************",
+        "authDomain": "*************************-*************************.firebaseapp.com",
+        "databaseURL": "https://*************************-*************************.firebaseio.com",
+        "projectId": "*************************-*************************",
+        "storageBucket": "*************************-*************************.appspot.com",
+        "messagingSenderId": "*************************",
+        "appId": "1:*************************:web:*************************",
+        "measurementId": "G-*************************"
+      },
+      "google": {
+        "androidClientId": "*************************-*************************.apps.googleusercontent.com",
+        "iosClientId": "*************************-*************************.apps.googleusercontent.com",
+        "webClientId": "*************************-*************************.apps.googleusercontent.com",
+        "scopes": [
+          "profile",
+          "email"
+        ],
+        "permissions": [
+          "public_profile",
+          "email",
+          "gender",
+          "location"
+        ]
+      },
+      "facebook": {
+        "AppId": "*************************",
+        "permissions": [
+          "public_profile",
+          "email"
+        ]
+      },
+      "authotization": {
+        "bearer": "*************************.*************************.*************************"
+      },
+      "api": {
+        "products": {
+          "production": "https://products-*************************-uc.a.run.app",
+          "test": "https://products-*************************-uc.a.run.app",
+          "operation": {
+            "get": "/api/categories/categoryProductsByShop/",
+            "search": "/api/productsByName/"
+          }
+        },
+        "shops": {
+          "production": "https://shops-*************************-uc.a.run.app",
+          "test": "https://shops-*************************-uc.a.run.app",
+          "operation": {
+            "get": "/api/shops",
+            "getByType": "/api/shops/"
+          }
+        },
+        "order": {
+          "production": "https://orders-*************************-uc.a.run.app",
+          "test": "https://orders-*************************-uc.a.run.app",
+          "operation": {
+            "get": "/api/orders/getAllOrdersByCustomer/",
+            "checkout": "/api/orders"
+          }
+        },
+        "user": {
+          "production": "https://users-*************************-uc.a.run.app",
+          "test": "https://users-*************************-uc.a.run.app",
+          "operation": {
+            "get": "/api/users/",
+            "post": "/api/users"
+          }
+        }
+      }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}

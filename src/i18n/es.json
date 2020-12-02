@@ -1,0 +1,733 @@
+{
+    "locale":"es-ES",
+    "loading": "... Cargando",    
+    "actions": {
+        "add": "Agregar",
+        "remove": "Quitar",
+        "update": "Actualizar"
+    },
+    "home": {
+        "title": "Inicio",
+        "strager": "Invitado",
+        "search": "Que estas buscando?",
+        "titleshops":"Tiendas",
+        "subtitleshops":"Pide en cualquier tienda y recibe tu pedido en casa",
+        "titlepopularshops":"Tiendas Populares",
+        "subtitlepopularshops":"Las mejores tiendas solo en Pídenos.co",
+        "tab": {
+            "popular": "Popular",
+            "groseries": "Alimentos",
+            "farmacy": "Droguerías",
+            "ironmongery": "Ferreterías",
+            "clothes": "Moda",
+            "beauty": "Belleza"
+        }
+    },
+    "restaurant": {
+        "title": "Inicio",
+        "strager": "Invitado",
+        "search": "Que estas buscando?",
+        "titleshops":"Restaurantes",
+        "subtitleshops":"Pide en cualquier restaurante y recibe tu pedido en casa",
+        "titlepopularshops":"Tiendas Populares",
+        "subtitlepopularshops":"Las mejores tiendas solo en Pídenos.co",
+        "tab": {
+            "popular": "Popular",
+            "groseries": "Alimentos",
+            "farmacy": "Droguerías",
+            "ironmongery": "Ferreterías",
+            "clothes": "Moda",
+            "beauty": "Belleza"
+        }
+    },
+    "deals": {
+        "title": "Promociones"
+    },
+    "addresses": {
+        "title": "Tus direcciones",
+        "search": "Ingresa una nueva dirección",
+        "location": "Ubicación actual",
+        "add":"Agregar dirección",
+        "noaddresses": "Aún no tiene direcciones configuradas",
+        "addressexist": "Está dirección ya existe",
+        "addresswarning": "Debes iniciar sesión para agregar direcciones"
+    },
+    "ContactInformation": {
+        "title": "Información de Contacto",
+        "name": "Nombre",
+        "mobile": "Celular",
+        "address":"Dirección",
+        "email": "Correo Electronico",
+        "save": "Guardar"
+    },
+    "search": {
+        "title": "Busqueda",
+        "tab": {
+            "products": "Productos",
+            "brands": "Marcas"
+        },
+        "search": "Que producto estas buscando?"
+    },
+    "products": {
+        "title": "Productos",
+        "search": "Que producto estas buscando?",
+        "buttonadd": "Agregar"
+    },
+    "detail": {
+        "title": "Detalle",
+        "buttonadd": "Agregar",
+        "buttonupdate": "Actualizar",
+        "buttonremove": "Eliminar"
+    },
+    "cart": {
+        "title": "Tú Orden",
+        "buttonpay": "Píde",
+        "buttonupdate": "Vaciar Canasta",
+        "buttonremove": "Quitar",
+        "payied":"Pedido en Proceso!",
+        "emptyquestion":"Estas seguro de que quieres quitar todos los productos del carrito?",
+        "yes": "Sí, seguro",
+        "no": "No, seguir comprando",
+        "emptycart": "Vaciar carrito",
+        "order": "Felicidades",
+        "ordermessage":"Su orden ha sido recibida, por favor revise su correo.",
+        "warningsesion":"Queremos enviarte tú pedido a casa, pero antes inicia sesión con tú cuenta Pídenos.",
+        "warningaddress":"Recuerda antes informarnos la dirección de envío, deseas agregarla ahora?",
+        "delete": "Quitar",
+        "emailwarning": "Debes tener una dirección de email para poder enviarte la notificación",
+        "wellDone": "Bien hecho!",
+        "ordernumber": "Es tú número de orden",
+        "trackorder": "Rastrea tu orden",
+        "continueshopping": "Continuar Comprando",
+        "contactinformationwarning": "Requerimos algunos datos de contacto para completar tú compra, deseas actualizarlos?"
+    },
+    "login": {
+        "title": "Login",
+        "signbyemail": "O Inicia con",
+        "email": "Correo Electrónico",
+        "password": "Contraseña",
+        "loginin": "Iniciar",
+        "successmessage":"¡Has iniciado sesión correctamente!",
+        "cancelsignin":"has candelado sesión",
+        "signoutmessage":"Estás seguro de cerrar sesión?",
+        "register": "Registrarse",
+        "forgotpassword": "Recuperar contraseña",        
+        "validEmail": "Por favor, introduzca una dirección de correo electrónico válida, por ejemplo: jorge@gmail.com",
+        "errorpassword": "La contraseña que ha ingresado es incorrecta, intente de nuevo."
+    },
+    "register": {
+        "title": "Registro",
+        "signbyemail": "O Registrate con",
+        "email": "Correo Electrónico",
+        "password": "Contraseña",
+        "signup": "Crear Cuenta",
+        "successmessage":"¡Has creado tú cuenta Pídenos correctamente!",
+        "firstname":"Primer Nombre",
+        "lastname":"Apellidos",
+        "passwordconfirm": "Confirmar Contraseña",
+        "termsandconditions": "Acepto términos y condiciones",
+        "passwordStrength": "Seguridad de la contraseña: ",
+        "fieldRequired": "Por favor, debe completar los campos requeridos",
+        "privacyPolicyRequired": "Por favor, debes aceptar las políticas de privacidad",
+        "passwordvalidation": "La contraseña no coincide con la confirmación",
+        "checkboxlabel": "ver aquí"
+    },
+    "paymentmethod": {
+        "title": "Escoge un método de pago",
+        "available": "Disponibles",
+        "addpaymentmethod":"Método de pago seleccionado",
+        "nopaymentmethods": "Aún no tiene métodos de pago configurados"
+    },
+    "passwordreset": {
+        "title": "Recuperar Contraseña",
+        "email": "Correo Electrónico",
+        "resetpasswordbutton": "Enviar",
+        "successmessage":"¡Se ha enviado un correo a tú email para recuperar tú contraseña!"
+    },
+    "menu": {
+        "title": "Bienvenido,",
+        "settings":{
+            "title": "Perfil de usuario",
+            "text": "Configuración"
+        },
+        "payment":{
+            "title": "Facuración",
+            "text": "Métodos de Pago"
+        },
+        "orders":{
+            "title": "Historial de Ordenes",
+            "text": "Todas tus Ordenes"
+        },
+        "help":{
+            "title": "Centro de Ayuda",
+            "text": "Ayuda"
+        },
+        "logout":{
+            "title": "Cerrar Sesión",
+            "text": "Te esperamos pronto!"
+        }
+    },
+    "settings": {
+        "recommended": {
+            "title": "Configuraciones Recomendadas",
+            "optionone": "Usar FaceID para iniciar sesión,",
+            "optiontwo": "Bloqueo automático de la aplicación",
+            "optionthree": "Notificaciones"
+        },
+        "payment": {
+            "title": "Configuraciones de Pago",
+            "optionone": "Administración de Medios de Pago",
+            "optiontwo": "Administración de Tarjetas de Regalo"
+        },
+        "privacy": {
+            "title": "Configuraciones de Privacidad",
+            "optionone": "Acuerdo de Usuario",
+            "optiontwo": "Ajustes de Privacidad",
+            "optionthree": "Acerca de"
+        }
+    },
+    "onboarding": {
+        "title": "Política de Protección de Datos",
+        "buttontext":"ACEPTAR",
+        "privacypolicybutton":"aceptar política de protección de datos",
+        "policy": [
+            {     
+                "text1": "PIDENOS COLOMBIA SAS es una sociedad, con domiciliada en la  Carrera 36 A #11ª-45 Oeste – Oficina 404, en la ciudad de Cali (Valle del Cauca – Colombia),  cuyo objeto principal consiste en: “Comercio al por mayor de productos alimenticios a personas naturales, jurídicas y/o todo tipo de empresas nacionales o extranjeras; 2. contratación de talentos a nivel regional, nacional e internacional para realizar Actividades de desarrollo de sistemas informáticos (planificación, análisis, diseño, programación, pruebas) 3. Otras actividades de tecnologías de información y actividades de servicios informáticos 4. Comercio al por menor en establecimientos no especializados con surtido compuesto principalmente por alimentos, bebidas o tabaco 5. Publicidad.",
+                "text2": "La elaboración y propuesta de este documento corresponde a la necesidad de dar cumplimiento a las disposiciones contenidas en la Ley 1581 de 2012 y a su Decreto Reglamentario 1377 de 2013, que regulan la protección de datos personales e imponen deberes a los encargados y responsables de bases de datos. Siendo una de las obligaciones la elaboración de un manual interno de políticas y procedimientos para garantizar la protección de datos personales y en especial para regular los procedimientos de consultas y reclamos.",
+                "text3":"Es muy importante para nuestra compañía contar con las bases de datos de nuestros clientes, proveedores, trabajadores y de la comunidad en general, para lo cual se cuenta con herramientas tecnológicas eficientes que permiten gestión, uso y almacenamiento eficiente de la información personal que se utiliza para el cumplimiento de los objetivos corporativos del negocio, como lo es por ejemplo en sus procesos de selección y contratación del personal, o los procesos relacionados con el servicio y atención al cliente, usuarios, proveedores, accionistas, directivos entre otros; realizados directamente o con el apoyo de terceros especializados.",
+                "text4":"El objetivo fundamental del presente manual es desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bases de datos o archivos, y los demás derechos, libertades y garantías constitucionales.",
+                "list": [{}]
+            },
+            {
+                "title": "DISPOSICIONES GENERALES",
+                "subtitle": "Artículo 1. Normatividad Aplicable:",
+                "text1": "El presente manual se encuentra sujeto a la regulación establecida en la Ley 1581 de 2012 y a los derechos constitucionales establecidos en los artículos 15 y 20 de la Constitución Política de Colombia.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 2. Ámbito de Aplicación:",
+                "text1": "Los principios y disposiciones contenidos en el presente manual serán aplicables a los datos personales registrados en las bases de datos que los haga susceptibles de tratamiento por parte de PIDENOS COLOMBIA SAS, excepto a las bases de datos y archivos regulados por la Ley 1266 de 2008.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 3. Definiciones:",
+                "list": [{
+                    "text": "Para los efectos del presente manual y de acuerdo con lo establecido en la Ley 1581 de 2012, se entiende por:",                
+                    "a": "a) Autorización: Consentimiento previo, expreso e informado del Titular para llevar a cabo el Tratamiento de datos personales.",
+                    "b": "b) Base de datos: Conjunto organizado de datos personales que sea objeto de Tratamiento.",
+                    "c": "c) Dato personal: Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables.",
+                    "d": "d) Encargado del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de datos personales por cuenta del responsable del Tratamiento.",
+                    "e": "e) responsable del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el Tratamiento de los datos.",
+                    "f": "f) Titular: Persona natural cuyos datos personales sean objeto de Tratamiento.",
+                    "g": "g) Tratamiento: Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión.",
+                    "h": "h) Bases de datos de proveedores: Son las bases de datos manuales o automatizados que contienen datos de las personas naturales que presten un servicio o provean productos para PIDENOS COLOMBIA SAS y que por su vínculo contractual sean objeto de tratamiento.",
+                    "i": "i) Bases de datos de clientes: Son las bases de datos manuales o automatizadas que contienen datos de las personas naturales a quienes PIDENOS COLOMBIA SAS., les presta un servicio derivado de una relación contractual y comercial. En relación con las personas naturales que estén vinculadas con nuestros clientes que con ocasión de la relación contractual se desprenda algún tipo de tratamiento se garantizará que el uso de su información será tratado de conformidad con las finalidades establecidas en el presente manual.",
+                    "j": "j) Bases de datos de trabajadores: Son las bases de datos manuales o automatizadas que contienen datos de las personas naturales que estén vinculadas laboralmente con PIDENOS COLOMBIA SAS, o a través de un tercero especializado.",
+                    "k": "k) Bases de datos de archivos inactivos: Son las bases de datos manuales o automatizados que contienen datos de personas naturales que actualmente no estén vinculadas bajo ninguna modalidad con PIDENOS COLOMBIA SAS. El tratamiento de la información almacenada en esta base de datos será restringido y sólo podrá ser consultada por el Representante Legal de la Compañía o a quien designe en los casos que sean estrictamente necesarios.",
+                    "l": "l) Datos de identificación: Hace referencia a aquella información que tiene como finalidad identificar e individualizar al titular de los datos.",
+                    "m": "m) Datos de ubicación: Hace referencia aquella información que permite localizar al titular de los datos.",
+                    "n": "n) Datos socio-económicos: Hace referencia a aquella información que permite conocer, verificar y clasificar el nivel social y económico al que pertenece el titular de los datos.",
+                    "o": "o) Datos sensibles: Adoptamos la definición que estipula el título III de la ley estatutaria 1581 de 2012.",
+                    "p": "p) Datos biométricos: Hace referencia a aquella información que permite realizar una identificación biométrica y/o digital del titular.",
+                    "q": "q) Autorización general: Hace referencia a la autorización que da el titular de los datos para que cualquier información proporcionada por este cumpla con la finalidad especificada según la base de datos y la necesidad de ejecutarla.",
+                    "r": "r) Otros: Sub clasificación que tiene como finalidad agrupar aquella información que se recolecte diferente a las antes enunciadas, pero que tengan un propósito necesario para desarrollar el objeto social de PIDENOS COLOMBIA SAS, y cumplir con políticas internas o disposiciones legales.",
+                    "s": "s) Dato público: Es el dato que no sea semiprivado, privado o sensible. Es considerado como públicos, entre otros, los datos relativos al estado civil de las personas, a su profesión u oficio, y a su calidad de comerciante o de servidor público. Por su naturaleza, los datos públicos pueden estar contenidos, entre otros, en registros públicos, documentos públicos, gacetas y boletines oficiales y sentencias judiciales debidamente ejecutoriadas que no estén sometidas a reserva.",
+                    "t": "t) Dato semiprivado: Es semiprivado el dato que no tiene naturaleza íntima, reservada ni pública y cuyo conocimiento o divulgación puede interesar no solo a su titular sino a cierto sector o grupo de personas o a la sociedad en general, como el dato financiero y crediticio de actividad comercial o de servicios. Este tipo de dato requerirá autorización para su circulación.",
+                    "u": "u) Dato privado: Considerado también como personal, hace referencia a toda información que identifique o permita individualizar a una persona."
+                }]
+            },
+            {
+                "subtitle": "Artículo 4. Clasificación de los Datos Personales:",
+                "text1": "PIDENOS COLOMBIA SAS, ha adoptado criterios de clasificación de los datos según su naturaleza de conformidad el nivel de confidencialidad que tenga cada dato. Por lo anterior, los datos pueden ser Públicos, Semiprivados, Privados y Sensibles, de conformidad con las definiciones del artículo anterior.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 5. Principios: Los principios que se establecen a continuación:",
+                "list": [{
+                    "text": "Los principios que se establecen a continuación, constituyen los parámetros generales que serán respetados por PIDENOS COLOMBIA SAS., en los procesos de tratamiento de datos personales:",                
+                    "a": "a) Principio de legalidad en materia de tratamiento de datos: El Tratamiento a que se refiere el presente manual es una actividad reglada que debe sujetarse a lo establecido en la ley 1581 de 2012 y en las demás disposiciones que la desarrollen.",
+                    "b": "b) Principio de finalidad: El Tratamiento debe obedecer a una finalidad legítima de acuerdo con la Constitución y la Ley, la cual debe ser informada al Titular.",
+                    "c": "c) Principio de libertad: El Tratamiento sólo puede ejercerse con el consentimiento, previo, expreso e informado del Titular. Los datos personales no podrán ser obtenidos o divulgados sin previa autorización, o en ausencia de mandato legal o judicial que releve el consentimiento.",
+                    "d": "d) Principio de veracidad o calidad: La información sujeta a Tratamiento debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. Se prohíbe el Tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error.",
+                    "e": "e) Principio de transparencia: En el Tratamiento debe garantizarse el derecho del Titular a obtener del Responsable del Tratamiento o del Encargado del Tratamiento, en cualquier momento y sin restricciones, información acerca de la existencia de datos que le conciernan.",
+                    "f": "f) Principio de acceso y circulación restringida: El Tratamiento se sujeta a los límites que se derivan de la naturaleza de los datos personales, de las disposiciones de la ley y la Constitución. En este sentido, el Tratamiento sólo podrá hacerse por personas autorizadas por el Titular y/o por las personas previstas en la presente ley.",
+                    "g": "g) Los datos personales, salvo la información pública, no podrán estar disponibles en Internet u otros medios de divulgación o comunicación masiva, salvo que el acceso sea técnicamente controlable para brindar un conocimiento restringido sólo a los Titulares o terceros autorizados conforme a la presente ley.",
+                    "h": "h) Principio de seguridad: La información sujeta a Tratamiento por el Responsable del Tratamiento o Encargado del Tratamiento a que se refiere la ley 1581 de 2012, se deberá manejar con las medidas técnicas, humanas y administrativas que sean necesarias para otorgar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.",
+                    "i": "i) Principio de confidencialidad: Todas las personas que intervengan en el Tratamiento de datos personales que no tengan la naturaleza de públicos están obligadas a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende el Tratamiento, pudiendo sólo realizar suministro o comunicación de datos personales cuando ello corresponda al desarrollo de las actividades autorizadas en la ley 1581 de 2012."
+                }]
+            },
+            {
+                "title": "FINALIDADES",
+                "subtitle": "Artículo 6.",
+                "text1": "PIDENOS COLOMBIA SAS. en cada una de las bases de datos subclasificó la información personal que se recolecta, de conformidad con las definiciones de los tipos de datos desarrollados en el capítulo anterior, que según el caso pueden recolectarse en el transcurso de la relación precontractual o contractual que se tenga entre PIDENOS COLOMBIA SAS y el titular",
+                "list": [{}],
+                "additional": [
+                    {
+                        "title": "CLIENTES",
+                        "identification": {
+                            "title": "DATOS DE IDENTIFICACIÓN:",
+                            "text1": "Individualizar al titular de los datos personales."
+                        },
+                        "ubication": {
+                            "title": "DATOS DE UBICACIÓN:",
+                            "text1": "Tener contacto permanente con el titular de los datos personales.",
+                            "text2": "Informar sobre cambios de nuestros productos y/o servicios.",
+                            "text3": "Dar cumplimiento a obligaciones contraídas.",
+                            "text4": "Evaluar la calidad de nuestros productos y servicios.",
+                            "text5": "Proveer productos y servicios requeridos.",
+                            "text6": "Informar sobre nuevos productos o servicios que estén relacionados o no con lo contratado.",
+                            "text7": "Información comercial, publicitaria o promocional sobre los productos y/o servicios, eventos y/o promociones de tipo comercial, con el fin de impulsar, invitar, dirigir, ejecutar, informar y de manera general, llevar a cabo campañas, promociones o concursos de carácter comercial o publicitario."
+                        },
+                        "social": {
+                            "title": "DATOS SOCIOECONOMICOS:",
+                            "text1": "Obtener una referencia del financiamiento de nuestros productos."
+                        },
+                        "biometric": {
+                            "title": "BIOMETRICOS:",
+                            "text1": "En las instalaciones que tenemos monitoreo por grabaciones de video, la información tiene como finalidad brindar seguridad a la infraestructura.",
+                            "text2": "Verificar la calidad del servicio que se le presta al titular."
+                        },
+                        "autorization": {
+                            "title": "AUTORIZACIÓN GENERAL:",
+                            "text1": "Compartir, incluyendo la transferencia y transmisión de sus datos personales a terceros.",
+                            "text2": "Países para los fines relacionados con la operación.",
+                            "text3": "Compartir, incluyendo la transferencia y transmisión de sus datos personales a terceros para los fines relacionados con la operación de nuestra compañía."
+                        },
+                        "others": {
+                            "title": "OTROS:",
+                            "text1": "Realizar estudios sobre hábitos de consumo."
+                        }
+                    },
+                    {
+                        "title": "PROVEEDORES",
+                        "identification": {
+                            "title": "DATOS DE IDENTIFICACIÓN:",
+                            "text1": "Individualizar al titular de los datos personales."
+                        },
+                        "ubication": {
+                            "title": "DATOS DE UBICACIÓN:",
+                            "text1": "Tener contacto permanente con el titular de los datos personales.",
+                            "text2": "Dar cumplimiento a obligaciones contraídas.",
+                            "text4": "Informar sobre cambios de nuestros productos o servicios.",
+                            "text5": "Solicitar productos y servicios requeridos.",
+                            "text6": "Presentar peticiones ante el proveedor."
+                        },
+                        "social": {
+                            "title": "DATOS SOCIOECONOMICOS:",
+                            "text1": "Evaluación como proveedor potencial."
+                        },
+                        "biometric": {
+                            "title": "BIOMETRICOS:",
+                            "text1": "En las instalaciones que tenemos monitoreo por grabaciones de video, la información tiene como finalidad brindar seguridad a la infraestructura."
+                        },
+                        "autorization": {
+                            "title": "AUTORIZACIÓN GENERAL:",
+                            "text1": "En las instalaciones que tenemos monitoreo por grabaciones de video, la información tiene como finalidad brindar seguridad a la infraestructura.",
+                            "text2": "Compartir, incluyendo la transferencia y transmisión de sus datos personales a terceros para los fines relacionados con la operación de nuestra compañía.",
+                            "text3": "Elaboración y celebración del contrato."
+                        }
+                    },
+                    {
+                        "title": "OTROS:",
+                        "text1": "Información comercial y publicitaria.",
+                        "text2": "Para realizar campañas de fidelización del proveedor.",
+                        "text3": "Evaluar la calidad de los productos y/o servicios.",
+                        "text4": "Trabajadores.",
+                        "identification": {
+                            "title": "DATOS DE IDENTIFICACIÓN:",
+                            "text1": "Individualizar al titular de los datos personales.",
+                            "text2": "Realizar los procesos necesarios de recursos humanos dentro de la empresa."
+                        },
+                        "ubication": {
+                            "title": "DATOS DE UBICACIÓN:",
+                            "text1": "Tener contacto permanente con el titular de los datos personales."
+                        },
+                        "social": {
+                            "title": "DATOS SOCIOECONOMICOS:",
+                            "text1": "Verificar información suministrada por el titular en el proceso de selección.",
+                            "text2": "Verificar el entorno social y económico del titular."
+                        },
+                        "sensible": {
+                            "title": "SENSIBLES:",
+                            "text1": "Para dar cumplimiento con las obligaciones derivadas de la relación laboral."
+                        },
+                        "biometric": {
+                            "title": "BIOMETRICOS:",
+                            "text1": "Constatar la identidad del titular.",
+                            "text2": "Verificar la calidad del servicio que presta el titular a externos.",
+                            "text3": "En las instalaciones que tenemos monitoreo por grabaciones de video, la información tiene como finalidad brindar seguridad a la infraestructura."
+                        },
+                        "autorization": {
+                            "title": "AUTORIZACIÓN Y FINALIDAD GENERAL:",
+                            "text1": "Para el manejo y cumplimiento de las normas de Seguridad Social, incluyendo la transferencia de mi información a terceros que se requiera.",
+                            "text2": "Para dar cumplimiento con las obligaciones derivadas de la relación laboral."
+                        },
+                        "others": {
+                            "title": "OTROS:",
+                            "text1": "Contactar a mis familiares, dependientes económicos y/o beneficiarios en caso de emergencia.",
+                            "text2": "Realizar el control interno de mis conocimientos y habilidades personales."
+                        }
+                    },
+                    {
+                        "title": "SOCIOS:",
+                        "identification": {
+                            "title": "DATOS DE IDENTIFICACIÓN:",
+                            "text1": "Individualizar al titular de los datos personales."
+                        },
+                        "ubication": {
+                            "title": "DATOS DE UBICACIÓN:",
+                            "text1": "Tener contacto permanente con el titular de los datos personales."
+                        },
+                        "social": {
+                            "title": "DATOS SOCIOECONOMICOS:",
+                            "text1": "Para mantener un registro dentro de la compañía."
+                        },
+                        "sensible": {
+                            "title": "SENSIBLES:",
+                            "text1": "Para dar cumplimiento con las obligaciones derivadas de la relación laboral."
+                        },
+                        "biometric": {
+                            "title": "BIOMETRICOS:",
+                            "text1": "Constatar la identidad del titular."
+                        },
+                        "autorization": {
+                            "title": "AUTORIZACIÓN Y FINALIDAD GENERAL:",
+                            "text1": "Compartir, incluyendo la transferencia y la transmisión de sus datos personales a terceros para los fines relacionados con la operación de nuestra compañía."
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "AUTORIZACIÓN",
+                "subtitle": "Artículo 7. Autorización:",
+                "text1": "La recolección, almacenamiento, uso, circulación o supresión de datos personales por parte de PIDENOS COLOMBIA SAS, requiere del consentimiento libre, previo, expreso e informado del titular de los mismos. PIDENOS COLOMBIA SAS, en su condición de RESPONSABLE Y ENCARGADO del tratamiento de datos personales, ha dispuesto de los mecanismos necesarios para obtener la autorización de los titulares garantizando en todo caso que sea posible verificar el otorgamiento de dicha autorización.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 8. Forma para Otorgar la Autorización:",
+                "text1": "La autorización puede constar en un documento físico, electrónico, en cualquier otro formato que permita garantizar su posterior consulta, o mediante un mecanismo técnico o tecnológico idóneo mediante el cual se pueda concluir de manera inequívoca, que de no haberse surtido una conducta del titular, los datos nunca hubieren sido capturados y almacenados en la base de datos.",
+                "text2": "Con el procedimiento de la autorización consentida se garantiza que se ha puesto en conocimiento del titular de los datos personales, tanto el hecho que su información personal será recogida y utilizada para fines determinados y conocidos, como que tiene la opción de conocer cualquier alteración a los mismos y el uso específico que de ellos se ha dado.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 9. Casos en que no se requiere autorización:",
+                "text1": "Por disposición expresa del Artículo 10 de la Ley 1581 de 2012, la autorización del Titular no será necesaria cuando se trate de:",
+                "text2": "Información requerida por una entidad pública o administrativa en ejercicio de sus funciones legales o por orden judicial.",
+                "text3": "Datos de naturaleza pública.",
+                "text4": "Casos de urgencia médica o sanitaria.",
+                "text5": "Tratamiento de información autorizado por la ley para fines históricos, estadísticos o científicos.",
+                "text6": "Datos relacionados con el Registro Civil de las Personas.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 10. Autorización de Datos Sensibles:",
+                "text1": "El Tratamiento de datos sensibles está prohibido, a excepción de los casos expresamente contenidos en el Artículo 6 de la Ley 1581 de 2012, en todo caso, de presentarse la necesidad de su recolección, para su Tratamiento, PIDENOS COLOMBIA SAS, Informará al Titular que el dato que va a suministrar es de los catalogados como sensibles, la finalidad por la cual se solicita y su derecho a no proporcionarlo por estar en esta categoría.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 11. Datos Biométricos:",
+                "list": [{
+                    "text": "De conformidad con el artículo anterior PIDENOS COLOMBIA SAS ha identificado la utilización de los siguientes datos biométricos, los cuales se pasan a detallar con su finalidad:",
+                    "a": "a) Grabaciones sonoras: PIDENOS COLOMBIA SAS por razones de calidad y de seguridad, ha establecido la posibilidad de grabar las conversaciones que se centren en la prestación de un servicio. El titular de este dato biométrico deberá ser informado previamente de la posibilidad de ser grabado y tendrá la libertad de decidir si acepta o no la grabación, salvo que dicha grabación derive de la prestación de un servicio contratado por el titular y/o la persona jurídica con la cual ese titular está vinculado. Hacen parte de las Grabaciones Sonoras las que se realicen vía telefónica, las cuales podrán ser grabadas y monitoreadas por razones de Calidad.",
+                    "b": "b) Grabaciones de Video: PIDENOS COLOMBIA SAS por razones de seguridad, ha optado por realizar grabaciones continuas de video dentro de sus instalaciones, las cuales tienen como única finalidad, brindar seguridad al personal que ingresa a la Compañía, a su infraestructura y a los bienes que estén dentro del Establecimiento. Estas grabaciones sólo podrán ser consultadas por personal Autorizado directamente por la Dirección General. En todo caso PIDENOS COLOMBIA SAS atenderá los requerimientos que realice el Titular de los datos biométricos sobre el tratamiento que se le están dando a los mismos. PIDENOS COLOMBIA SAS, tendrá en un lugar visible de sus instalaciones un aviso mediante el cual informa a todos sus clientes, proveedores, trabajadores y visitantes que cuenta con un sistema de grabación de video con la finalidad de brindar seguridad al personal que ingresa a sus instalaciones, a la infraestructura y a sus bienes",
+                    "c": "c) Los datos biométricos y sensibles serán tratados con mayor seguridad que los datos privados de conformidad con nuestras Políticas de Seguridad de la Información, el acceso a los mismos estará restringido para todo el personal de PIDENOS COLOMBIA SAS, y sólo la Presidencia podrá designar y autorizar quien tenga acceso a la misma."
+                }]
+            },
+            {
+                "subtitle": "Artículo 12. Aviso:",
+                "text1": "El Aviso es el documento físico, electrónico o en cualquier otro formato, que es puesto a disposición del Titular para el tratamiento de sus datos personales. A través de este documento se informa al Titular la información relativa a la existencia de las políticas de tratamiento de información que le serán aplicables, la forma de acceder a las mismas y las características del tratamiento que se pretende dar a los datos personales.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 13. Contenido del Aviso:",
+                "list": [{
+                    "text": "El Aviso de Privacidad, como mínimo, deberá contener la siguiente información:",                
+                    "a": "a) La identidad, domicilio y datos de contacto del Responsable del Tratamiento.",
+                    "b": "b) El tipo de tratamiento al cual serán sometidos los datos y la finalidad del mismo.",
+                    "c": "c) Los mecanismos generales dispuestos por PIDENOS COLOMBIA SAS, para que el Titular conozca la política de tratamiento de la información y los cambios sustanciales que se produzcan en ella. En todos los casos, debe informar al titular cómo acceder o consultar la política de tratamiento de información."
+                }]
+            },
+            {
+                "title": "TRANSMISIÓN Y TRANSFERENCIA DE DATOS PERSONALES",
+                "subtitle": "Artículo 14. Transferencia de Datos Personales:",
+                "text1": "Según lo reglamentado por la Ley 1581 de 2912, PIDENOS COLOMBIA SAS prohíbe la transferencia de datos personales de cualquier tipo a países que no proporcionen niveles adecuados de protección de datos.",
+                "text2": "Parágrafo. se entiende que un país ofrece un nivel adecuado de protección de datos cuando cumpla con los estándares fijados por la superintendencia de industria y comercio sobre la materia, los cuales en ningún caso podrán ser inferiores a los definidos por la Ley 1581de 2012.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 15. Se excluye de la prohibición establecida en el artículo anterior:",
+                "list": [{
+                    "a": "a) Información respecto de la cual el Titular haya otorgado su autorización expresa e inequívoca para la transferencia.",
+                    "b": "b) Intercambio de datos de carácter médico, cuando así lo exija el Tratamiento del Titular por razones de salud o higiene pública.",
+                    "c": "c) Transferencias bancarias o bursátiles, conforme a la legislación que les resulte aplicable.",
+                    "d": "d) Transferencias acordadas en el marco de tratados internacionales en los cuales la República de Colombia sea parte, con fundamento en el principio de reciprocidad.",
+                    "e": "e) Transferencias necesarias para la ejecución de un contrato entre el Titular y el responsable del Tratamiento, o para la ejecución de medidas precontractuales siempre y cuando se cuente con la autorización del Titular.",
+                    "f": "f) Transferencias legalmente exigidas para la salvaguardia del interés público, o para el reconocimiento, ejercicio o defensa de un derecho en un proceso judicial."
+                }]
+            },
+            {
+                "subtitle": "Artículo 16.",
+                "text1": "En todo caso será obligación de PIDENOS COLOMBIA SAS, verificar con la Superintendencia de Industria y Comercio al momento de realizar una transferencia internacional de datos personales, que el país receptor cuente con niveles adecuados para la protección de datos personales, y deberá además contar con la respectiva autorización del titular del dato para realizar la respectiva transferencia",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 17.",
+                "text1": "PIDENOS COLOMBIA SAS al momento de realizar una transferencia o transmisión nacional o internacional de datos personales, deberá contar además de la autorización expresa del titular, un acuerdo con el receptor de la información ya sea encargado o responsable, por medio del cual este se comprometa al cumplimiento de lo establecido en la Ley 1581 de 2012, y a guardar la reserva y confidencialidad de toda la información personal que reciba",
+                "list": [{}]
+            },
+            {
+                "title": "DEBERES Y DERECHOS",
+                "subtitle": "Artículo 18. Derechos de Titular:",
+                "list": [{
+                    "text": "El Titular de los datos personales tendrá los siguientes derechos.",                
+                    "a": "a) Conocer, actualizar y rectificar sus datos personales frente a los Responsables del Tratamiento o Encargados del Tratamiento. Este derecho se podrá ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo Tratamiento esté expresamente prohibido o no haya sido autorizado.",
+                    "b": "b) Solicitar prueba de la autorización otorgada a PIDENOS COLOMBIA SAS., salvo cuando expresamente se exceptúe como requisito para el Tratamiento, de conformidad con lo previsto en el artículo 10 de la presente ley.",
+                    "c": "c) Ser informado por PIDENOS COLOMBIA SAS., previa solicitud, respecto del uso que le ha dado a sus datos personales.",
+                    "d": "d) Presentar ante la Superintendencia de Industria y Comercio quejas por infracciones a lo dispuesto en el presente reglamento o en la ley 1581 de 2012 y las demás normas que la modifiquen, adicionen o complementen.",
+                    "e": "e) Revocar la autorización y/o solicitar la supresión del dato cuando en el Tratamiento no se respeten los principios, derechos y garantías constitucionales y legales.",
+                    "f": "f) Acceder en forma gratuita a sus datos personales que hayan sido objeto de Tratamiento."
+                }]
+            },
+            {
+                "subtitle": "Artículo 19.",
+                "list": [{
+                    "text": "Deberes de PIDENOS COLOMBIA SAS, deberán cumplir los siguientes deberes, sin perjuicio de las demás disposiciones previstas en el presente manual, en la ley 1581 de 2012 y en otras que rijan su actividad:",
+                    "a": "a) Garantizar al Titular, en todo tiempo, el pleno y efectivo ejercicio del derecho de hábeas data.",
+                    "b": "b) Solicitar y conservar, en las condiciones previstas en el presente manual y en la ley 1581 de 2012, copia de la respectiva autorización otorgada por el Titular.",
+                    "c": "c) Informar debidamente al Titular sobre la finalidad de la recolección y los derechos que le asisten por virtud de la autorización otorgada.",
+                    "d": "d) Conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.",
+                    "e": "e) Garantizar que la información que se suministre al Encargado del Tratamiento sea veraz, completa, exacta, actualizada, comprobable y comprensible.",
+                    "f": "f) Actualizar la información, comunicando de forma oportuna, todas las novedades respecto de los datos que previamente le haya suministrado y adoptar las demás medidas necesarias para que la información suministrada a este se mantenga actualizada.",
+                    "g": "g) Rectificar la información cuando sea incorrecta y comunicar lo pertinente al Encargado del Tratamiento.",
+                    "h": "h) Suministrar únicamente datos cuyo Tratamiento esté previamente autorizado de conformidad con lo previsto en el presente manual o en la ley.",
+                    "i": "i) Exigir en todo momento, el respeto a las condiciones de seguridad y privacidad de la información del Titular.",
+                    "j": "j) Tramitar las consultas y reclamos formulados en los términos señalados en el presente manual y en la ley 1581 de 2012.",
+                    "k": "k) Informar cuando determinada información se encuentra en discusión por parte del Titular, una vez se haya presentado la reclamación y no haya finalizado el trámite respectivo.",
+                    "l": "l) Informar a solicitud del Titular sobre el uso dado a sus datos.",
+                    "m": "m) Informar a la autoridad de protección de datos cuando se presenten violaciones a los códigos de seguridad y exista riesgos en la administración de la información de los Titulares.",
+                    "n": "n) Cumplir las instrucciones y requerimientos que imparta la Superintendencia de Industria y Comercio.",
+                    "o": "o) Realizar oportunamente la actualización, rectificación o supresión de los datos.",
+                    "p": "p) Actualizar la información reportada dentro de los cinco (5) días hábiles contados a partir de su recibo.",
+                    "q": "q) Registrar en la base de datos la leyenda “reclamo en trámite” en la forma en que se regula en la presente ley.",
+                    "r": "r) Insertar en la base de datos la leyenda “información en discusión judicial” una vez notificado por parte de la autoridad competente sobre procesos judiciales relacionados con la calidad del dato personal.",
+                    "s": "s) Abstenerse de circular información que esté siendo controvertida por el Titular y cuyo bloqueo haya sido ordenado por la Superintendencia de Industria y Comercio.",
+                    "t": "t) Permitir el acceso a la información únicamente a las personas que pueden tener acceso a ella."
+                }]
+            },
+            {
+                "title": "PROCEDIMIENTOS",
+                "subtitle": "Artículo 20. Acceso:",
+                "text1": "El poder de disposición o decisión que tiene el titular sobre la información que le concierne, conlleva necesariamente el derecho de acceder y conocer si su información personal está siendo objeto de tratamiento, así como el alcance, condiciones y generalidades de dicho tratamiento. De esta manera, PIDENOS COLOMBIA SAS debe garantizar al titular su derecho de acceso en tres vías:",
+                "list": [{
+                    "text": "Parágrafo. Este derecho puede ejercerse directamente por el titular o por sus causahabientes o por intermedio de un apoderado del titular de la información personal. En todo caso, el titular, sus causahabientes o su apoderado, deberá adjuntar copia del documento que lo identifique y lo faculte como tal. El apoderado deberá presentar copia del poder y del documento de identificación el cual será archivado como soporte dentro de la petición respectiva. En todo caso, si la presentación se realiza sin la acreditación o presentación del documento idóneo, se entenderá como no presentada la solicitud sin que se dé trámite a ésta.",
+                    "a": "a) La primera implica que el titular pueda conocer la efectiva existencia del tratamiento a que son sometidos sus datos personales.",
+                    "b": "b) La segunda, que el titular pueda tener acceso a sus datos personales que están en posesión del responsable.",
+                    "c": "c) La tercera, supone el derecho a conocer las circunstancias esenciales del tratamiento, lo cual se traduce en el deber de PIDENOS COLOMBIA SAS, de informar al titular sobre el tipo de datos personales tratados y todas y cada una de las finalidades que justifican el tratamiento."
+                }]
+            },
+            {
+                "subtitle": "Artículo 21. Contenido de la Consulta o Reclamo:",
+                "text1": "La solicitud debe estar dirigida a PIDENOS COLOMBIA SAS., y debe contener como mínimo los siguientes datos:",
+                "text2": "Nombres y Apellidos del Titular.",
+                "text3": "Nombre de identidad del Titular.",
+                "text4": "Datos de localización del titular.",
+                "text5": "Descripción de los hechos que dan lugar a la consulta o reclamo.",
+                "text6": "Medio por el cual desea recibir la respuesta.",
+                "text7": "Nombre completo del peticionario si es una persona distinta al titular, debe aportar los documentos que le permitan actuar en su nombre.",
+                "text8": "Firma del peticionario.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 22. Consultas:",
+                "text1": "Los Titulares o sus causahabientes podrán consultar la información personal del Titular que repose en cualquiera de nuestras bases de datos, debiendo PIDENOS COLOMBIA SAS suministrar a estos toda la información contenida en el registro individual o que esté vinculada con la identificación del Titular.",
+                "text2": "La consulta se formulará por cualquiera de los siguientes medios:",
+                "text3": "Registro en la recepción de la empresa.",
+                "text4": "El correo electrónico denominado PIDENOS COLOMBIA SAS.",
+                "text5": "Correspondencia radicada por las partes interesadas.",
+                "text6": "La consulta será atendida en un término máximo de diez (10) días hábiles contados a partir de la fecha de recibo de la misma.",
+                "text7": "Cuando no fuere posible atender la consulta dentro de dicho término, se informará al interesado, expresando los motivos de la demora y señalando la fecha en que se atenderá su consulta, la cual en ningún caso podrá superar los cinco (5) días hábiles siguientes al vencimiento del primer término.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 23. Reclamos:",
+                "text1": "El Titular o sus causahabientes que consideren que la información contenida en una base de datos debe ser objeto de corrección, actualización o supresión, o cuando adviertan el presunto incumplimiento de cualquiera de los deberes contenidos en este reglamento o en la ley, podrán presentar un reclamo ante PIDENOS COLOMBIA SAS., el cual será tramitado bajo las siguientes reglas:",
+                "text2": "El reclamo se formulará mediante solicitud dirigida a PIDENOS COLOMBIA SAS., con la identificación del Titular, la descripción de los hechos que dan lugar al reclamo, la dirección, y acompañando los documentos que se quiera hacer valer.",
+                "text3": "Si el reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5) días siguientes a la recepción del reclamo para que subsane las fallas. Si Transcurridos dos (2) meses desde la fecha del requerimiento, sin que el solicitante presente la información requerida, se entenderá que ha desistido del reclamo. En caso de que quién reciba el reclamo no sea competente para resolverlo, dará traslado a quien corresponda en un término máximo de dos (2) días hábiles e informará de la situación al interesado.",
+                "text4": "Una vez recibido el reclamo completo, se incluirá en la base de datos una leyenda que diga “reclamo en trámite” y el motivo del mismo, en un término no mayor a dos (2) días hábiles. Dicha leyenda se mantendrá hasta que el reclamo sea decidido.",
+                "text5": "El término máximo para atender el reclamo será de quince (15) días hábiles contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 24. Revocatoria de la Autorización:",
+                "text1": "Los titulares de los datos personales pueden revocar el consentimiento al tratamiento de sus datos personales en cualquier momento, siempre y cuando no lo impida una disposición legal. Para ello, PIDENOS COLOMBIA SAS establece mecanismos sencillos y gratuitos que permiten al titular revocar su consentimiento.",
+                "text2": "Se deberá tener en cuenta que existen dos modalidades en las que la revocación del consentimiento puede darse.",
+                "text3": "La primera, puede ser sobre la totalidad de las finalidades consentidas, esto es, que PIDENOS COLOMBIA SAS, deba dejar de tratar por completo los datos del titula.",
+                "text4": "La segunda, puede ocurrir sobre tipos de tratamiento determinados, como por ejemplo para fines publicitarios o de estudios de mercado. Con la segunda modalidad, esto es, la revocación parcial del consentimiento, se mantienen a salvo otros fines del tratamiento que el responsable, de conformidad con la autorización otorgada puede llevar a cabo y con los que el titular está de acuerdo.",
+                "text5": "Por lo anterior, será necesario que el titular al momento elevar la solicitud de revocatorio consentimiento a PIDENOS COLOMBIA SAS indique en ésta si la revocación que pretende realizar es total o parcial. En la segunda hipótesis se deberá indicar con cuál tratamiento el titular no está conforme.",
+                "text6": "Habrá casos en que el consentimiento, por su carácter necesario en la relación entre titular y responsable por el cumplimiento de un contrato, por disposición legal no podrá ser revocado.",
+                "text7": "Los mecanismos o procedimientos que PIDENOS COLOMBIA SAS, establezca para atender las solicitudes de revocatoria del consentimiento no podrán exceder los plazos previstos para atender las reclamaciones conforme se señala en el artículo 15 de la Ley 1581 de 2012.",
+                "text8": "No procederá la supresión y revocatoria de la autorización cuando exista un deber legal o contractual del titular de permanecer en la base de datos, de acuerdo con lo establecido en el artículo 9 del decreto 1377 de 2013.",
+                "list": [{}]
+            },
+            {
+                "title": "SEGURIDAD EN LA INFORMACIÓN",
+                "subtitle": "Artículo 25. Medidas de Seguridad:",
+                "text1": "PIDENOS COLOMBIA SAS, en cumplimiento a lo establecido por la Ley Estatutaria 1581 de 2012, adoptará las medidas técnicas, humanas y administrativas que sean necesarias para otorgar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.",
+                "text2": "PIDENOS COLOMBIA SAS, tiene implementado las medidas de seguridad para la protección de cada una de esas Bases de Datos a través de las Políticas de Seguridad de la Información para cumplir las condiciones mínimas de seguridad, prevención de riesgos e implementación de controles que impidan la adulteración, pérdida, consulta o acceso no autorizado.",
+                "text3": "Todos los contratos entre PIDENOS COLOMBIA SAS y sus clientes, proveedores, trabajadores y/o colaboradores tienen inmersa una Cláusula de Confidencialidad, por lo que adquieren los últimos un compromiso irrenunciable de guardar para sí con recelo toda información con la que contarán y tendrán acceso a través de su participación en alguna actividad o trabajo, incluyendo los datos personales a los que tengan conocimiento.",
+                "list": [{
+                    "text": "Para la validación de la calidad del peticionario, PIDENOS COLOMBIA SAS ha adoptado como medidas, las siguientes:",
+                    "a": "a) Los titulares de los datos personales deberán acreditar a PIDENOS COLOMBIA SAS su calidad de Titular de la información o en su defecto la autorización respectiva, para que se le pueda dar trámite a su petición.",
+                    "b": "b) PIDENOS COLOMBIA SAS al momento de recibir la petición por parte del Titular, le solicitará que le exhiba su documento de identidad y deberá anexar fotocopia del documento exhibido.",
+                    "c": "c) Si la consulta se realiza por medio electrónico o por cualquier otro medio no presencial, el Titular de la información, deberá acompañar su petición con una fotocopia escaneada de su documento de identidad, junto con la solicitud que deberá estar firmada."
+                }],
+                "text4": "En todos los casos, PIDENOS COLOMBIA SAS podrá ponerse en contacto con el titular de la información por los medios de notificación que reposan en sus bases de datos para constatar la autenticidad de la petición.",
+                "text5": "Las bases de datos de los trabajadores estarán protegidas para evitar el acceso de personal no autorizado. "
+            },
+            {
+                "subtitle": "Artículo 26. Implementación de las medidas de seguridad:",
+                "text1": "PIDENOS COLOMBIA SAS mantendrá protocolos de seguridad de obligatorio cumplimiento para el personal con acceso a los datos de carácter personal y a los sistemas de información.",
+                "list": [{}]
+            },
+            {
+                "title": "DISPOSICIONES INTERNAS",
+                "subtitle": "Artículo 27. Designación:",
+                "text1": "PIDENOS COLOMBIA SAS al interior de la Compañía ha establecido los procedimientos para dar cumplimiento de manera oportuna a los requerimientos realizados por los Titulares o sus autorizados, por tal razón se ha designado a la Coordinación Administrativa, quien lo ejercerá para recepcionar las solicitudes de los titulares, para el ejercicio de los derechos de acceso, consulta, rectificación, actualización, supresión y revocatoria a que se refiere la Ley 1581 de 2012.",
+                "text2": "Para la recepción de consultas, reclamos, quejas sobre el tratamiento de sus datos personales o para el ejercicio de los derechos como Proveedor, cliente o Trabajador podrá ponerse en contacto con PIDENOS COLOMBIA SAS, al correo electrónico, servicioalcliente@pidenos.com.co.",
+                "text3": "Utilizando los medios físicos que se han puesto a disposición en la oficina principal ubicada en la Carrera 36 A #11ª-45 Oeste – Oficina 404, en la ciudad de Cali, al igual que en las Sucursales.",
+                "text4": "Agencias o cualquier establecimiento de comercio de propiedad de PIDENOS COLOMBIA SAS peticiones que serán recepcionadas en el horario de lunes a viernes de 8:00 a.m., a 12:00 m y de 2:00 p.m., a 5:00 p.m.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 28. Revisión de cumplimiento:",
+                "text1": "PIDENOS COLOMBIA SAS, ha designado al Representante Legal quien periódicamente (cada 4 meses) verificará: [1] El cumplimiento del Manual Interno de Políticas de Protección de Datos; [2] El cumplimiento de las políticas de protección de datos; [3] Se revisarán las peticiones que hayan realizado los titulares de los datos personales que reposen en las Bases de Datos de PIDENOS COLOMBIA SAS, en los últimos tres (4) meses; [4] Se verificará si han existido violaciones a los protocolos de seguridad de las Bases de Datos; [5] Elaborará las recomendaciones y las expondrá a la administración de PIDENOS COLOMBIA SAS, para que tome las decisiones correctivas pertinentes; [6] Adicionalmente, se programará por lo menos una vez al año, una capacitación al personal para que conozca los derechos y obligaciones tanto de los titulares de la información, como de los procedimientos y obligaciones de PIDENOS COLOMBIA SAS.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 29. Criterio para el Tratamiento de Datos Personales:",
+                "text1": "Los trabajadores y proveedores que, con motivo de sus funciones según su cargo o labor, que tengan acceso a información personal contenida en las bases de datos de PIDENOS COLOMBIA SAS, deberá ceñirse estrictamente a los siguientes criterios:",
+                "text2": "Solo podrá utilizar las bases de datos que contengan información de tipo personal que sean suministradas, avaladas o autorizadas por el titular del dato personal.",
+                "text3": "Se abstendrá de dar tratamiento a aquella que no cuenten con la autorización previa por parte del titular de los datos o que no sean Datos Públicos.",
+                "text4": "La información contenida en las bases de datos sólo podrá ser utilizadas para los fines a los que fueron autorizados por el titular de la información.",
+                "text5": "Los correos electrónicos masivos dirigidos a personas externas deberán ser remitidos utilizando la opción de Copia Oculta o CCO.",
+                "text6": "Se documentará cualquier solicitud que se realice al interior de la Compañía en la que se involucre la circulación de datos personales.",
+                "text7": "Cada trabajador y proveedor ha sido informado de las implicaciones legales que tiene el uso indebido de la información personal y de las bases de datos de PIDENOS COLOMBIA SAS por lo que deberá ceñirse estrictamente a las autorizaciones dadas por los titulares de las bases de datos y según los criterios de uso.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 30. Criterio para el Tratamiento de Datos Personales Sensibles:",
+                "text1": "Los trabajadores y proveedores que, con motivo de sus funciones según su cargo o labor, que tengan acceso a información personal contenida en las bases de datos de PIDENOS COLOMBIA SAS, deberá ceñirse estrictamente a los siguientes criterios:",                
+                "list": [{
+                    "a": "a) Llamadas telefónicas grabadas. Se informará al titular del dato biométrico recolectado, que la llamada podrá ser grabada y monitoreada por motivos de calidad.",
+                    "b": "b) Grabaciones de video: En las instalaciones de PIDENOS COLOMBIA SAS. se han instalado cámaras de seguridad que se encuentran distribuidas estratégicamente para asegurar la integridad personal, la infraestructura y de los bienes que al interior de las instalaciones se encuentre. A la entrada de la edificación se avisará a las personas que ingresen que serán grabadas y monitoreadas.",
+                    "c": "c) Se documentará cualquier solicitud que se realice al interior de la Compañía en la que se involucre la circulación de datos personales sensibles."
+                }]
+            },
+            {
+                "title": "DISPOSICIONES FINALES",
+                "subtitle": "Artículo 31. Recepción de Solicitudes:",
+                "text1": "PIDENOS COLOMBIA SAS, designa la Coordinación Administrativa para recepcionar las solicitudes de los titulares, para el ejercicio de los derechos de acceso, consulta, rectificación, actualización, supresión y revocatoria a que se refiere la Ley 1581 de 2012. A nivel interno se han establecido procedimientos para la oportuna y eficaz atención de las consultas y reclamos teniendo en cuenta los responsables de las diferentes bases de datos y nuestra estructura administrativa interna.",
+                "list": [{}]
+            },
+            {
+                "subtitle": "Artículo 32. Vigencia:",
+                "text1": "El presente manual rige a partir del 22 de diciembre de 2017.",
+                "list": [{}]
+            },
+            {
+                "title": "Escribenos",
+                "text1": "servicioalcliente@pidenos.com.co",
+                "text2": "+57 2 3764486",
+                "text3": "Carrera 36 A #11ª-45 Oeste – Oficina 404",
+                "text4": "CALI, COLOMBIA",
+                "list": [{}]
+            },
+            {
+                "title": "Resumen de privacidad",
+                "text1": "Este sitio web utiliza cookies para mejorar su experiencia mientras navega por el sitio web. Fuera de estas cookies, las cookies que se clasifican como necesarias se almacenan en su navegador, ya que son esenciales para el funcionamiento de las funciones básicas del sitio web. También utilizamos cookies de terceros que nos ayudan a analizar y comprender cómo utiliza este sitio web. Estas cookies se almacenarán en su navegador solo con su consentimiento. También tiene la opción de optar por no recibir estas cookies. Sin embargo, la exclusión de algunas de estas cookies puede afectar su experiencia de navegación.",
+                "list": [{}]
+            }     
+    ]},
+    "pro": {
+        "buttontext":"REGRESAR",
+        "textone": "Espera",
+        "texttwo": "Esta Funcionalidad",
+        "textthree": "Pronto"
+    },
+    "PasswordStrengthMeter": {
+        "strengthWeak": "Baja",
+        "strengthFair": "Media",
+        "strengthGood": "Buena",
+        "strengthStrong": "Fuerte"
+    },
+    "profile": {
+        "firstname": "Nombre",
+        "lastname": "Apellido",
+        "documentnumber" :"Número de Identificación",
+        "email": "Correo Electrónico",
+        "mobile": "Número Celular",
+        "birthdate": "Fecha de Nacimiento",
+        "gender": "Genero",
+        "confirm": "Confirmar",
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "female": "Femenino",
+        "male": "Masculino"
+    },
+    "checkout": {
+        "title": "Checkout",
+        "address": "Dirección",
+        "products": "Tus productos",
+        "paymentmethod": "Medio de pago",
+        "change": "Cambiar",
+        "numberinstallments": "Número de cuotas",
+        "completepayment": "Complete su pago con",
+        "coupon": "Ingresa Cupón",
+        "sendorder": "Enviar orden",
+        "couponcode": "Código de cupón",
+        "termsandconditions": "términos y condiciones"
+    },
+    "order": {
+        "title": "Mis ordenes",
+        "subtitle": "Encuentra aquí el historial de tus ordenes",
+        "active": "En progreso",
+        "delivered": "Entregado",
+        "inactive": "Cancelado",
+        "unknown": "Desconocido",
+        "order": "Pedido",
+        "ordersinprogress": "Ordenes en Progreso"
+    },
+    "orderDetail": {
+        "title": "Detalle Orden",
+        "productsummary": "Resumen de productos",
+        "deliveryaddress": "Dirección de envío",
+        "paydetail": "Detalles de pago",
+        "transationdetail": "Detalles de la transacción",
+        "methodpayment": "Medio de pago",
+        "totalpay": "Pago total",
+        "cancelorder": "Cancelar Pedido",
+        "message": "Se envió tú solicitud de cancelación de pedido!",
+        "status": "Estado"
+    },
+    "payment": {
+        "title": "Método de Pago"
+    },
+    "message": {
+        "title":"Vaya!",
+        "success": {
+            "title": "Bienvenido",
+            "resetpassword": "Recuperar Contraseña",
+            "welldone": "Muy bien!",
+            "save": "Guardado exitosamente!"
+        },
+        "warning": {
+            "title": "Advertencia!"
+        },
+        "errors": {            
+            "title": "Error",
+            "message":"¡Se ha producido un error!"
+        },
+        "close": "Ok",
+        "tryAgain": "Intente Nuevamente"
+    }
+}
